@@ -1,0 +1,176 @@
+/* index*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3C3D37;
+}
+
+/* nav */
+.navbar {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.ul-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.li-nav{
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+.a-nav {
+    text-decoration: none;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 600;
+}
+
+.a-nav:hover {
+    color:   green;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 12px;
+}
+/* end */
+
+/* content1 */
+.content1{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    height: 80vh;  /* (vh) sepanjang layar divice */
+    background-color: #333332;
+}
+
+.p-ct{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.img-content1{
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+/* end */
+
+/* content2 */
+.content2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;  /* (vh) sepanjang layar divice */
+    background-color: #333332;
+    color: white;
+}
+
+.img-ct2{
+    width: 30%;
+}
+
+.h3-ct2{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+
+.p-ct2{
+    font-family: "Trirong", serif;
+    font-size: 20px;
+}
+/* content2 end */
+
+/* content3 */
+.content3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;  /* (vh) sepanjang layar divice */
+    background-color: #333332;
+    color: white;
+}
+
+.img-ct3{
+    width: 25%;
+    border-radius: 10px;
+}
+
+.img-ct3:hover {
+    background-color: grey;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+}
+/* content3 end */
+
+
+/* content4 */
+.content4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;  /* (vh) sepanjang layar divice */
+    background-color: #333332;
+    color: white;
+}
+
+.img-ct3{
+    width: 25%;
+    border-radius: 10px;
+}
+
+/* content3 end */
+
+/* footer */
+.footer{
+    background-color: black;
+    padding: 15px 10px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 600;
+}
+
+.ul-ft {
+    display: flex;
+    justify-content: center;
+}
+
+.li-ft {
+    list-style-type: none;
+    color: white;
+    padding: 15px 15px; 
+}
+
+.a-ft {
+    text-decoration: none;
+    color: white;
+}
+
+.a-ft:hover {
+    color: green;
+}
+
+.p-ft {
+    text-align: center;
+    color: white;
+}
+/* footer end */
+
+
+/* gallery */
+/* gallery */
+
+/* contact */
+/* contact */
+
+
