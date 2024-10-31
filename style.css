@@ -51,6 +51,10 @@ body {
     background-color: #333332;
 }
 
+.a-content{
+        text-decoration: none;
+} 
+
 .p-ct{
     color: white;
     font-size: 20px;
